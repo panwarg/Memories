@@ -7,10 +7,11 @@
         mc:Ignorable="d"
         Loaded="Window_Loaded"
         xmlns:vlc="clr-namespace:LibVLCSharp.WPF;assembly=LibVLCSharp.WPF"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow"
+        WindowState="Maximized">
     <Grid>
 
-        <WrapPanel>
+        <WrapPanel Name="mainWrapPanel">
             <MediaElement
                 LoadedBehavior="Play"
                 Width="400"

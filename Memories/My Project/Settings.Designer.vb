@@ -52,6 +52,33 @@ Partial Friend NotInheritable Class MySettings
             Return defaultInstance
         End Get
     End Property
+    
+    <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("I:\Camera")>  _
+    Public ReadOnly Property MediaRootFolder() As String
+        Get
+            Return CType(Me("MediaRootFolder"),String)
+        End Get
+    End Property
+    
+    <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("8")>  _
+    Public ReadOnly Property MaxMediaPlayers() As Byte
+        Get
+            Return CType(Me("MaxMediaPlayers"),Byte)
+        End Get
+    End Property
+    
+    <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("960")>  _
+    Public ReadOnly Property PlayerWidth() As Short
+        Get
+            Return CType(Me("PlayerWidth"),Short)
+        End Get
+    End Property
 End Class
 
 Namespace My

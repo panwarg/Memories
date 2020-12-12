@@ -1,7 +1,15 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" UseMySettingsClassName="true">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="MediaRootFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">I:\Camera</Value>
+    </Setting>
+    <Setting Name="MaxMediaPlayers" Type="System.Byte" Scope="Application">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="PlayerWidth" Type="System.Int16" Scope="Application">
+      <Value Profile="(Default)">960</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
