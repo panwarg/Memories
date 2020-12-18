@@ -6,11 +6,22 @@
         xmlns:local="clr-namespace:Memories"
         mc:Ignorable="d"
         Loaded="Window_Loaded"
-        Title="MainWindow"
+        Title="Memories Are LIVE"
         WindowState="Maximized">
-    <Grid>
-
-        <WrapPanel Name="mainWrapPanel">
-        </WrapPanel>
+    <Grid x:Name="mainPanel">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <MediaElement Grid.Row="0" Grid.Column="0" />
+        <MediaElement Grid.Row="0" Grid.Column="1" />
+        <MediaElement Grid.Row="1" Grid.Column="0" />
+        <MediaElement Grid.Row="1" Grid.Column="1" />
+        <!--<WrapPanel Name="mainWrapPanel">
+        </WrapPanel>-->
     </Grid>
 </Window>

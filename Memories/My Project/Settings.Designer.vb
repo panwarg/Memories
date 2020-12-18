@@ -64,7 +64,7 @@ Partial Friend NotInheritable Class MySettings
     
     <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Configuration.DefaultSettingValueAttribute("8")>  _
+     Global.System.Configuration.DefaultSettingValueAttribute("4")>  _
     Public ReadOnly Property MaxMediaPlayers() As Byte
         Get
             Return CType(Me("MaxMediaPlayers"),Byte)
@@ -73,10 +73,10 @@ Partial Friend NotInheritable Class MySettings
     
     <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-     Global.System.Configuration.DefaultSettingValueAttribute("960")>  _
-    Public ReadOnly Property PlayerWidth() As Short
+     Global.System.Configuration.DefaultSettingValueAttribute("760")>  _
+    Public ReadOnly Property PlayerHeight() As Short
         Get
-            Return CType(Me("PlayerWidth"),Short)
+            Return CType(Me("PlayerHeight"),Short)
         End Get
     End Property
 End Class
