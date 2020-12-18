@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Loaded="Window_Loaded"
         Title="Memories Are LIVE"
+        Background="Black"
         WindowState="Maximized">
     <Grid x:Name="mainPanel">
         <Grid.RowDefinitions>
@@ -21,7 +22,5 @@
         <MediaElement Grid.Row="0" Grid.Column="1" />
         <MediaElement Grid.Row="1" Grid.Column="0" />
         <MediaElement Grid.Row="1" Grid.Column="1" />
-        <!--<WrapPanel Name="mainWrapPanel">
-        </WrapPanel>-->
     </Grid>
 </Window>
